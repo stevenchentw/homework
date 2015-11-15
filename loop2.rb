@@ -1,3 +1,4 @@
+
 puts "Welcome ruby calculator"
 
 puts "please enter the first number:"
