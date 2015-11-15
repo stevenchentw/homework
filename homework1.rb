@@ -15,7 +15,7 @@ begin
       
      array = ["Rock","Paper","Scissors"]
 	 puts "Player1 VS Player2"
-	 puts " {array[num1-1]}  VS  #{array[num2-1]}"
+	 puts " #{array[num1-1]}  VS  #{array[num2-1]}"
 	  answer = num1 - num2
 
 	 if answer == -2 or answer == 1
@@ -32,8 +32,8 @@ begin
    	 end  
   end while ![-1,-2,1,2].include?(answer)
   begin
-  puts "Do you want play again? #{losser}"
-  puts "[1]Yes [2]No "
-  ans = gets.chomp.to_i
+    puts "Do you want play again? #{losser}"
+    puts "[1]Yes [2]No "
+    ans = gets.chomp.to_i
   end while ![1,2].include?(ans)
 end while ![2].include?(ans)
