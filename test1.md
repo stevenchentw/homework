@@ -6,7 +6,7 @@ A: Fixnum 是整數沒有小數點之後的數字不會顯示
 2.今天有兩個字串：
 str1 = "Hallo Welt!" 
 str2 = " NTU Rails 261!"
-#請說明以下兩個印出字串的方式的不同處：
+請說明以下兩個印出字串的方式的不同處：
 puts str1 + str2
 puts "#{str1}#{str2}"
 A: puts str1 + str2      =>會產生新的值
